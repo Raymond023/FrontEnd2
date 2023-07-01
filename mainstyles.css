@@ -1,0 +1,83 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+}
+
+.center{
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: grid;
+    justify-content: center;
+    margin: 200px auto auto auto;
+    padding: 15px 5px 15px 5px;
+    text-align: center;
+    width: 300px;
+
+}
+
+.QR{
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.secondary{
+    color: hsl(220, 15%, 55%);    
+}
+
+img{
+    border-radius: 15px;
+    height: auto;
+    width: 280px;
+}
+
+p{
+    color: hsl(218, 44%, 22%);
+}
+
+span{
+    color: hsl(212, 45%, 89%);
+}
+
+@media screen and (max-width: 375px) {
+    img{
+        border-radius: 4px;
+        height: auto;
+        width: 60px;
+    }
+
+    .center{
+        align-items: center;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 5px;
+        display: grid;
+        justify-content: center;
+        margin: 50px auto auto auto;
+        padding: 3px 3px 10px 3px;
+        text-align: center;
+        width: 60px;
+    
+    }
+
+    body{
+        background-color: hsl(212, 45%, 89%);
+        font-size:4px;
+        height: auto;
+        width: 375px;
+    }
+    
+    p{
+        font-size: 5px;
+    }
+
+    .secondary{
+        color: hsl(220, 15%, 55%);
+        font-size: 3px;
+    }
+}
